@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@doctorhere/doctorhere-react-ui",
-  "version": "0.0.0-a",
+  "version": "0.0.0-b",
   "description": "Doctorhere React UI Component Library. ",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
