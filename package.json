@@ -1,10 +1,10 @@
 {
   "type": "module",
   "name": "@doctorhere/doctorhere-react-ui",
-  "version": "0.0.0-c",
+  "version": "0.0.0-d",
   "description": "Doctorhere React UI Component Library. ",
   "main": "dist/esm.js",
-  "module": "dist/cjs.js",
+  "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "start": "yarn start & yarn watch",
@@ -35,7 +35,6 @@
     "babel-preset-react-app": "^10.0.1",
     "rollup": "^3.21.7",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^5.0.4"
   },
