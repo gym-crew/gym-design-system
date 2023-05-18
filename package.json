@@ -4,7 +4,6 @@
   "version": "0.0.0-e",
   "description": "Doctorhere React UI Component Library. ",
   "main": "dist/esm.js",
-  "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "start": "yarn start & yarn watch",
@@ -20,12 +19,7 @@
   },
   "author": "medihere",
   "license": "MIT",
-  "dependencies": {
-    "styled-components": "^6.0.0-rc.1"
-  },
   "devDependencies": {
-    "@babel/core": "^7.21.8",
-    "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-image": "^3.0.2",
     "@rollup/plugin-json": "^6.0.0",
@@ -37,6 +31,7 @@
     "rollup": "^3.21.7",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.34.1",
+    "styled-components": "^6.0.0-rc.1",
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
