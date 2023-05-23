@@ -1,0 +1,94 @@
+{
+  "cSpell.words": ["Doctorhere"],
+  "commit-message-editor.staticTemplate": [
+    "feat: 짧은 설명",
+    "",
+    "메시지 본문(선택사항)",
+    "",
+    "Jira-ticket: DKT-123"
+  ],
+  "commit-message-editor.dynamicTemplate": [
+    "{commit_type}: {description}",
+    "",
+    "{body}",
+    "",
+    "{jira_issue_number}"
+  ],
+  "commit-message-editor.tokens": [
+    {
+      "label": "Commit Type",
+      "name": "commit_type",
+      "type": "enum",
+      "description": "Commit type of changes",
+      "options": [
+        {
+          "label": "feat",
+          "description": "새로운 기능 추가 (UI 포함)"
+        },
+        {
+          "label": "fix",
+          "description": "버그 수정"
+        },
+        {
+          "label": "refactor",
+          "description": "feat, fix 에 해당하지 않는 코드 변경"
+        },
+        {
+          "label": "perf",
+          "description": "성능 개선"
+        },
+        {
+          "label": "build",
+          "description": "빌드에 영향을 주는 변경 또는 외부 의존성 변경"
+        },
+        {
+          "label": "chore",
+          "description": "빌드 결과물에 영향을 주지 않는 변경"
+        },
+        {
+          "label": "docs",
+          "description": "주석, 문서 변경"
+        },
+        {
+          "label": "style",
+          "description": "코드 의미에 영향이 없는 변경 (white-space, formatting, missing semi-colons, etc)"
+        },
+        {
+          "label": "ci",
+          "description": "CI 설정 변경"
+        },
+        {
+          "label": "test",
+          "description": "테스트코드 작성"
+        },
+        {
+          "label": "revert",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "label": "제목",
+      "name": "description",
+      "description": "Short description in the subject line.",
+      "type": "text",
+      "multiline": false
+    },
+    {
+      "label": "Jira Issue Number",
+      "name": "jira_issue_number",
+      "type": "text",
+      "description": "Jira Issue Number\ne.g. DKT-123",
+      "prefix": "Jira-ticket: "
+    },
+    {
+      "label": "본문",
+      "name": "body",
+      "description": "(optional) Body",
+      "type": "text",
+      "multiline": true,
+      "lines": 5,
+      "maxLines": 10
+    }
+  ]
+}
