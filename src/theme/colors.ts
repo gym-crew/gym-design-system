@@ -1,4 +1,4 @@
-export const colors = {
+export default {
   logoGreen: "#1f7772",
   doctorhereGreen: "#19BA93",
   white: "#ffffff",
@@ -42,4 +42,4 @@ export const colors = {
   webBack: "#F7F8FC",
 };
 
-export type Colors = typeof colors;
+// export type Colors = typeof colors;
