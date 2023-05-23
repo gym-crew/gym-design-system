@@ -4,7 +4,10 @@
   "version": "0.0.0-final",
   "description": "Doctorhere React UI Component Library. ",
   "main": "dist/esm.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "yarn start & yarn watch",
     "watch": "rollup -cw",

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "./dist/types",
+    "declarationDir": "dist",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
@@ -11,9 +11,16 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "jsx": "react",
-    "typeRoots": ["@types"]
+    "jsx": "react"
+    // "typeRoots": ["@types"]
   },
-  "include": ["**/*.tsx", "**/*.ts", "@types", "index.ts"],
-  "exclude": ["node_modules", "dist", "rollup.config.js"]
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "rollup.config.js",
+    "storybook-static",
+    "src/**/*.stories.tsx",
+    "src/**/*.test.tsx"
+  ]
 }
