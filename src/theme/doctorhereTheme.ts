@@ -1,6 +1,6 @@
-import { DefaultTheme } from "styled-components";
-import colors from "./colors";
-import fontWeight from "./fontWeight";
+import { DefaultTheme } from 'styled-components';
+import colors from './colors';
+import fontWeight from './fontWeight';
 
 export namespace DoctorHereTheme {
   export type Colors = typeof colors;

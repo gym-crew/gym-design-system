@@ -1,6 +1,6 @@
-import React, { PropsWithChildren } from "react";
-import { ThemeProvider, createGlobalStyle } from "styled-components";
-import theme from "../theme/doctorhereTheme";
+import React, { PropsWithChildren } from 'react';
+import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import theme from '../theme/doctorhereTheme';
 
 const GlobalStyle = createGlobalStyle`
   * {margin:0;padding:0;font:inherit;color:inherit;}

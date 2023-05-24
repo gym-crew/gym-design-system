@@ -1,8 +1,8 @@
-import React from "react";
-import { ButtonProps } from "./Button.types";
+import React from 'react';
+import { ButtonProps } from './Button.types';
 
-import styled from "styled-components";
-import DoctorhereComponent from "../DoctorhereComponent";
+import styled from 'styled-components';
+import DoctorhereComponent from '../DoctorhereComponent';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -26,10 +26,10 @@ const Button: React.FC<ButtonProps> = ({ text }) => {
       <Wrapper>
         <Btn
           onClick={() => {
-            alert("test button");
+            alert('test button');
           }}
         >
-          {text ?? "test"}
+          {text ?? 'test'}
         </Btn>
       </Wrapper>
     </DoctorhereComponent>
