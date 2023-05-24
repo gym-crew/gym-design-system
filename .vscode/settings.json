@@ -1,19 +1,7 @@
 {
-  "cSpell.words": ["Doctorhere"],
-  "commit-message-editor.staticTemplate": [
-    "feat: 짧은 설명",
-    "",
-    "메시지 본문(선택사항)",
-    "",
-    "Jira-ticket: DKT-123"
-  ],
-  "commit-message-editor.dynamicTemplate": [
-    "{commit_type}: {description}",
-    "",
-    "{body}",
-    "",
-    "{jira_issue_number}"
-  ],
+  "cSpell.words": ["commitlint", "Doctorhere", "medihere"],
+  "commit-message-editor.staticTemplate": ["feat: 짧은 설명", "", "메시지 본문(선택사항)", "", "Jira-ticket: DKT-123"],
+  "commit-message-editor.dynamicTemplate": ["{commit_type}: {description}", "", "{body}", "", "{jira_issue_number}"],
   "commit-message-editor.tokens": [
     {
       "label": "Commit Type",
