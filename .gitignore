@@ -1,5 +1,8 @@
 node_modules
 dist
+storybook-static
+.storybook
+.DS_Store
 
 ### VisualStudioCode ###
 .vscode/*
